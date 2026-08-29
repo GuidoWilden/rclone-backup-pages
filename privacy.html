@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy — rclone-backup</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         max-width: 42rem; margin: 3rem auto; padding: 0 1.25rem; line-height: 1.6; }
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.1rem; margin-top: 2rem; }
+  footer { margin-top: 3rem; font-size: .9rem; opacity: .7; }
+</style>
+</head>
+<body>
+<h1>Privacy policy</h1>
+<p><em>Last updated: 29 August 2026</em></p>
+
+<p><strong>rclone-backup</strong> is a personal, single-user backup application. Its only user is
+its owner. It is not offered to, distributed to, or usable by anyone else.</p>
+
+<h2>What it does</h2>
+<p>The application uploads the owner's own backup archives from the owner's own server to the
+owner's own Google Drive account, and downloads them again when restoring. That is its entire
+function.</p>
+
+<h2>What data is accessed</h2>
+<p>The application requests access to Google Drive solely in order to read and write the backup
+files it creates in the owner's own Drive. It does not read, index, analyse, or transmit any other
+files in the owner's Drive.</p>
+
+<h2>What data is collected</h2>
+<p>None. The application has no server, no analytics, no telemetry, and no database. Nothing is
+collected about the user, because the user is the owner and the software runs entirely on the
+owner's own hardware.</p>
+
+<h2>What data is shared</h2>
+<p>None. No data is sold, shared, transferred, or disclosed to any third party. The only party
+that receives data is Google Drive, acting as the owner's chosen storage provider, at the owner's
+own direction.</p>
+
+<h2>Encryption</h2>
+<p>All files are encrypted on the owner's own machine before being uploaded, using
+<a href="https://rclone.org/crypt/">rclone's crypt</a> backend. Both file contents and filenames
+are encrypted. The encryption key is held only by the owner and is never transmitted.</p>
+
+<h2>Retention and deletion</h2>
+<p>Backups are retained according to a rotation policy set by the owner, and older backups are
+deleted automatically. The owner may delete all stored data at any time by removing the files from
+Google Drive and revoking the application's access at
+<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+<h2>Contact</h2>
+<p>This application has no users other than its owner. There is no support address; enquiries about this page are not monitored.</p>
+
+<footer><a href="index.html">← Back</a></footer>
+</body>
+</html>
